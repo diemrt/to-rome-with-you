@@ -1,0 +1,25 @@
+{
+    "data": {
+        "header": {
+            "logo": "our-image-logo-bw",
+            "progressBar": {
+                "stepsCount": 5,
+                "currentStep": 1
+            }
+        },
+        "body": {
+            "welcome": {
+                "title" : "A Roma con te",
+                "release-date": "2022-09-02T00:00:00",
+                "button": {
+                    "icon": "luggage",
+                    "text": "iniziamo",
+                    "links": {
+                        "previus": null,
+                        "next": "itineraryToMilan"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -6,7 +6,7 @@ class Header extends Component {
         return (
             <div>
                 <ProgressBar steps={this.props.progressBar.steps} currentStep={this.props.progressBar.currentStep}></ProgressBar>
-                <div className="bg-cover bg-no-repeat bg-center h-12 w-12 rounded-lg" Style="background-image: url(/images/logo.jpeg);"></div>
+                <div className="ml-4 bg-cover bg-no-repeat bg-center h-12 w-12 rounded-lg" Style="background-image: url(/images/logo.jpeg);"></div>
             </div>
         );
     }

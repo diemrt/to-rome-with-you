@@ -3,8 +3,8 @@
         "header": {
             "logo": "our-image-logo-bw",
             "progressBar": {
-                "stepsCount": 5,
-                "currentStep": 1
+                "steps": 5,
+                "currentStep": 0
             }
         },
         "body": {

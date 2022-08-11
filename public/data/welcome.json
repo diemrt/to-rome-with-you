@@ -9,7 +9,7 @@
         "body": {
             "welcome": {
                 "title" : "A Roma con te",
-                "release-date": "2022-09-02T00:00:00",
+                "releaseDate": "2022-09-02T00:00:00",
                 "button": {
                     "icon": "luggage",
                     "text": "iniziamo",

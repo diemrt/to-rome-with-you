@@ -52,7 +52,12 @@ class Itinerary1 extends Component {
                                 <IndicationsRecap from={data.body.itinerary.from} to={data.body.itinerary.to}></IndicationsRecap>
                             </div>
                         </div>
-                        <div className="h-3/5 bg-cover bg-no-repeat bg-center rounded-t-3xl shadow-inner" Style="background-image: url(/images/metro.jpg);"></div>
+                        <div className="h-3/5 flex justify-center bg-cover bg-no-repeat bg-center rounded-t-3xl shadow-inner" Style="background-image: url(/images/metro.jpg);">
+                            <a target='_blank' rel="noreferrer" className="w-fit h-fit mt-8 flex flex-row align-center p-2 pl-3 pr-3 bg-crete text-elm rounded-lg drop-shadow-md font-bold font-sans" href={data.body.itinerary.mapLink}>
+                                <span className="material-symbols-outlined pr-1">explore</span>
+                                ANDIAMO
+                             </a>
+                        </div>
                     </div>
                 </div>
             ))

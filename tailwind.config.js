@@ -10,7 +10,11 @@ module.exports = {
         elm: '#211814',
         crete: '#C6B8AA',
         gasoline: '#023E55'
-    }
+      },
+      fontFamily: {
+        sans: ['Lato', 'sans-serif'],
+        serif: ['EB Garamond', 'serif'],
+      }
     },
   },
   plugins: [],

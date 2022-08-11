@@ -9,13 +9,13 @@
         },
         "body": {
             "itinerary": {
-                "title" : "1ª Tappa",
+                "title" : "Si parte! Dove si va?",
                 "from": {
                     "location": "Calcinate, Via Zerrate 8",
                     "departAt": "Partenza stimata alle 04:30"
                 },
                 "to": {
-                    "location": "Stazione Centrale Milano",
+                    "location": "Metropolitana - Comasina",
                     "arriveAt": "Arrivo previsto alle 05:30"
                 },
                 "curiosity": "All’interno della Stazione Centrale esiste un’area che era in origine riservata ad alcuni viaggiatori speciali: la famiglia reale dei Savoia.",

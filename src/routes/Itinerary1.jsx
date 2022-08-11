@@ -49,7 +49,7 @@ class Itinerary1 extends Component {
                                 <IndicationsRecap from={data.body.itinerary.from} to={data.body.itinerary.to}></IndicationsRecap>
                             </div>
                         </div>
-                        <div className="h-3/5 bg-cover bg-no-repeat bg-center rounded-t-3xl shadow-inner" Style="background-image: url(/images/milan-station.jpg);"></div>
+                        <div className="h-3/5 bg-cover bg-no-repeat bg-center rounded-t-3xl shadow-inner" Style="background-image: url(/images/drive-1.jpg);"></div>
                     </div>
                 </div>
             ))

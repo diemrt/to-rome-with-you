@@ -1,6 +1,13 @@
 import { Component } from "react";
 
 class ProgressBar extends Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            progressBarClass: `grid grid-cols-${props.steps} gap-4 mb-3 mt-3`
+        }
+    }
+
     renderStps(){
         let element = []
         for (let i = 0; i < this.props.steps; i++) {
@@ -15,7 +22,7 @@ class ProgressBar extends Component {
 
     render(){
         return (
-                <div className="grid grid-cols-5 gap-4 mb-3 mt-3">
+                <div className={this.state.progressBarClass}>
                     {this.renderStps()}
                 </div>
         );

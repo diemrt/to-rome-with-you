@@ -2,7 +2,7 @@
     "data": {
         "header": {
             "progressBar": {
-                "steps": 5,
+                "steps": 8,
                 "currentStep": 0
             }
         },

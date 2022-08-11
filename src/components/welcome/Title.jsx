@@ -3,7 +3,11 @@ import { Component } from "react";
 class Title extends Component {
 
     render(){
-        return <h1>Empty</h1>
+        return (
+            <div className="text-7xl font-bold">
+                <h1>{this.props.description}</h1>
+            </div>
+        );
     }
 }
 

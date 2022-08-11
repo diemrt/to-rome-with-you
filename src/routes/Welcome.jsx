@@ -1,4 +1,5 @@
 import { Component } from "react";
+import { Link } from "react-router-dom";
 import Body from "../components/common/Body";
 import Header from "../components/common/Header";
 import Title from "../components/welcome/Title";
@@ -38,13 +39,18 @@ class Welcome extends Component{
                 ) : (!isLoaded ? (
                 <div></div>
                 ) : (
-                <div>      
+                <div className="h-full">  
+                    <img className="z-0 absolute -left-24 -bottom-0" src="/images/adventure1.png" alt="adventure"></img>    
                     <Header logo={data.header.logo} progressBar={data.header.progressBar}></Header>
-                    <div className="flex flex-col justify-center p-3">
-                        <Title></Title>
-                        <small className="text-center font-bold">Inizia il {new Date(data.body.welcome.releaseDate).toLocaleDateString('it-It', {year: 'numeric', month: 'long', day: 'numeric'})}</small>
-                    </div>                
-                    <img className="absolute -left-24 -bottom-0" src="/images/adventure1.png" alt="adventure"></img>
+                    <div className="h-5/6 flex flex-col justify-between p-3">
+                        <Title description={data.body.welcome.title}></Title>
+                        <div className="z-10 flex flex-col">
+                            <small className="text-center font-bold">Inizia il {new Date(data.body.welcome.releaseDate).toLocaleDateString('it-It', {year: 'numeric', month: 'long', day: 'numeric'})}</small>
+                            <div className="flex justify-center p-2"> 
+                                <Link className="w-fit p-2 pl-3 pr-3 bg-elm text-crete rounded-lg" to="/">INIZIAMO</Link>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             )) }></Body>
         );

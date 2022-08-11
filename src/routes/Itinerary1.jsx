@@ -38,7 +38,7 @@ class Itinerary1 extends Component {
                 ) : (
                 <div className="static w-screen h-screen p-6 bg-white text-elm font-serif">
                     <div className="h-full">  
-                        <img className="z-0 absolute -left-24 -bottom-0" src="/images/adventure1.png" alt="adventure"></img>    
+                        <img className="z-0 absolute -right-0 -top-20 overflow-x-hidden" src="/images/adventure2.png" alt="adventure"></img>    
                         <Header progressBar={data.header.progressBar}></Header>
                         <div className="flex flex-col justify-between p-3">
                             <div className="mt-5 text-2xl font-bold flex flex-row items-center">

@@ -1,5 +1,6 @@
 import { Component } from "react";
 import Header from "../components/common/Header";
+import IndicationsRecap from "../components/itinerary/IndicationsRecap";
 
 class Itinerary1 extends Component {
     constructor(props){
@@ -39,8 +40,12 @@ class Itinerary1 extends Component {
                     <div className="h-full">  
                         <img className="z-0 absolute -left-24 -bottom-0" src="/images/adventure1.png" alt="adventure"></img>    
                         <Header progressBar={data.header.progressBar}></Header>
-                        <div className="h-5/6 flex flex-col justify-between p-3">
-                            
+                        <div className="flex flex-col justify-between p-3">
+                            <div className="mt-5 text-2xl font-bold flex flex-row items-center">
+                                <span class="material-symbols-outlined pr-4">flag</span>
+                                <h1>{data.body.itinerary.title}</h1>
+                            </div>                            
+                            <IndicationsRecap from={data.body.itinerary.from} to={data.body.itinerary.to}></IndicationsRecap>
                         </div>
                     </div>
                 </div>

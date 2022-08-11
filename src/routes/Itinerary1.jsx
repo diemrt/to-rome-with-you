@@ -36,17 +36,20 @@ class Itinerary1 extends Component {
                 ) : (!isLoaded ? (
                 <div></div>
                 ) : (
-                <div className="static w-screen h-screen p-6 bg-white text-elm font-serif">
-                    <div className="h-full">  
-                        <img className="z-0 absolute -right-0 -top-20 overflow-x-hidden" src="/images/adventure2.png" alt="adventure"></img>    
-                        <Header progressBar={data.header.progressBar}></Header>
-                        <div className="flex flex-col justify-between p-3">
-                            <div className="mt-5 text-2xl font-bold flex flex-row items-center">
-                                <span class="material-symbols-outlined pr-4">flag</span>
-                                <h1>{data.body.itinerary.title}</h1>
-                            </div>                            
-                            <IndicationsRecap from={data.body.itinerary.from} to={data.body.itinerary.to}></IndicationsRecap>
+                <div className="static w-screen h-screen bg-white text-elm font-serif">
+                    <div className="h-full"> 
+                        <div className="p-6">
+                            <img className="z-0 absolute -right-0 -top-20 overflow-x-hidden" src="/images/adventure2.png" alt="adventure"></img>    
+                            <Header progressBar={data.header.progressBar}></Header>
+                            <div className="flex flex-col justify-between p-3">
+                                <div className="mt-5 text-2xl font-bold flex flex-row items-center">
+                                    <span class="material-symbols-outlined pr-4">flag</span>
+                                    <h1>{data.body.itinerary.title}</h1>
+                                </div>                            
+                                <IndicationsRecap from={data.body.itinerary.from} to={data.body.itinerary.to}></IndicationsRecap>
+                            </div>
                         </div>
+                        <div className="h-3/5 bg-cover bg-no-repeat bg-center rounded-t-3xl shadow-inner" Style="background-image: url(/images/milan-station.jpg);"></div>
                     </div>
                 </div>
             ))

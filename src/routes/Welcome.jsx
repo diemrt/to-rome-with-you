@@ -1,7 +1,7 @@
 import { Component } from "react";
-import { Link } from "react-router-dom";
 import Body from "../components/common/Body";
 import Header from "../components/common/Header";
+import StartButton from "../components/welcome/StartButton";
 import Title from "../components/welcome/Title";
 
 class Welcome extends Component{
@@ -46,9 +46,7 @@ class Welcome extends Component{
                         <Title description={data.body.welcome.title}></Title>
                         <div className="z-10 flex flex-col">
                             <small className="text-center font-bold">Inizia il {new Date(data.body.welcome.releaseDate).toLocaleDateString('it-It', {year: 'numeric', month: 'long', day: 'numeric'})}</small>
-                            <div className="flex justify-center p-2"> 
-                                <Link className="w-fit p-2 pl-3 pr-3 bg-elm text-crete rounded-lg" to="/">INIZIAMO</Link>
-                            </div>
+                            <StartButton releaseDate={data.body.welcome.releaseDate}></StartButton>
                         </div>
                     </div>
                 </div>

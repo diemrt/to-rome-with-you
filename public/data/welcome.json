@@ -2,6 +2,7 @@
     "data": {
         "header": {
             "progressBar": {
+                "color": "bg-white",
                 "steps": 8,
                 "currentStep": 0
             }

@@ -1,5 +1,4 @@
 import { Component } from "react";
-import Body from "../components/common/Body";
 import Header from "../components/common/Header";
 
 class Itinerary1 extends Component {
@@ -31,20 +30,21 @@ class Itinerary1 extends Component {
 
     render(){
         const { error, isLoaded, data } = this.state;
-        return (
-            <Body content={error ? (
+        return (error ? (
                 <div>Qualcosa è andato storto</div>
                 ) : (!isLoaded ? (
                 <div></div>
                 ) : (
-                <div className="h-full">  
-                    <img className="z-0 absolute -left-24 -bottom-0" src="/images/adventure1.png" alt="adventure"></img>    
-                    <Header progressBar={data.header.progressBar}></Header>
-                    <div className="h-5/6 flex flex-col justify-between p-3">
-                        
+                <div className="static w-screen h-screen p-6 bg-white text-elm font-serif">
+                    <div className="h-full">  
+                        <img className="z-0 absolute -left-24 -bottom-0" src="/images/adventure1.png" alt="adventure"></img>    
+                        <Header progressBar={data.header.progressBar}></Header>
+                        <div className="h-5/6 flex flex-col justify-between p-3">
+                            
+                        </div>
                     </div>
                 </div>
-            )) }></Body>
+            ))
         );
     }
 }

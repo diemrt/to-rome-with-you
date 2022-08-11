@@ -1,6 +1,7 @@
 import { Component } from "react";
 import Header from "../components/common/Header";
 import IndicationsRecap from "../components/itinerary/IndicationsRecap";
+import NavigationButton from "../components/itinerary/NavigationButton";
 
 class Itinerary1 extends Component {
     constructor(props){
@@ -37,6 +38,8 @@ class Itinerary1 extends Component {
                 <div></div>
                 ) : (
                 <div className="static w-screen h-screen bg-white text-elm font-serif">
+                    <NavigationButton positioning="top-10 left-0" link={data.body.itinerary.links.previous}></NavigationButton>
+                    <NavigationButton positioning="top-10 right-0" link={data.body.itinerary.links.next}></NavigationButton>
                     <div className="h-full"> 
                         <div className="p-6">
                             <img className="z-0 absolute -right-0 -top-20 overflow-x-hidden" src="/images/adventure2.png" alt="adventure"></img>    

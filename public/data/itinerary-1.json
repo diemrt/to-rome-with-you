@@ -21,7 +21,7 @@
                 "curiosity": "All’interno della Stazione Centrale esiste un’area che era in origine riservata ad alcuni viaggiatori speciali: la famiglia reale dei Savoia.",
                 "mapLink": "https://goo.gl/maps/BoXXrQSFgiqDMLNj9",
                 "links": {
-                    "previus": "/",
+                    "previous": "/",
                     "next": "/itinerary-2"
                 }
             }

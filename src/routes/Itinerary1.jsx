@@ -52,11 +52,16 @@ class Itinerary1 extends Component {
                                 <IndicationsRecap from={data.body.itinerary.from} to={data.body.itinerary.to}></IndicationsRecap>
                             </div>
                         </div>
-                        <div className="h-3/5 flex justify-center bg-cover bg-no-repeat bg-center rounded-t-3xl shadow-inner" Style="background-image: url(/images/metro.jpg);">
-                            <a target='_blank' rel="noreferrer" className="w-fit h-fit mt-8 flex flex-row align-center p-2 pl-3 pr-3 bg-crete text-elm rounded-lg drop-shadow-md font-bold font-sans" href={data.body.itinerary.mapLink}>
+                        <div className="h-3/5 grid gird-row-2 bg-cover bg-no-repeat bg-center rounded-t-3xl shadow-inner" Style="background-image: url(/images/metro.jpg);">
+                            <div className="flex justify-center">
+                                <a target='_blank' rel="noreferrer" className="w-fit h-fit mt-8 flex flex-row align-center p-2 pl-3 pr-3 bg-crete text-elm rounded-lg drop-shadow-md font-bold font-sans" href={data.body.itinerary.mapLink}>
                                 <span className="material-symbols-outlined pr-1">explore</span>
                                 ANDIAMO
                              </a>
+                            </div>
+                            <div className="flex justify-end">
+                                <p className="p-5 w-48 h-fit mr-4 bg-elm text-white font-bold rounded-xl">{data.body.itinerary.curiosity}</p>
+                            </div>
                         </div>
                     </div>
                 </div>

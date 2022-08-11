@@ -46,7 +46,7 @@ class Itinerary1 extends Component {
                             <Header progressBar={data.header.progressBar}></Header>
                             <div className="flex flex-col justify-between p-3">
                                 <div className="mt-5 text-2xl font-bold flex flex-row items-center">
-                                    <span class="material-symbols-outlined pr-4">flag</span>
+                                    <span class="material-symbols-outlined pr-4">{data.body.itinerary.icon}</span>
                                     <h1>{data.body.itinerary.title}</h1>
                                 </div>                            
                                 <IndicationsRecap from={data.body.itinerary.from} to={data.body.itinerary.to}></IndicationsRecap>

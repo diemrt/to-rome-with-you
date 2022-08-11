@@ -9,6 +9,7 @@
         },
         "body": {
             "itinerary": {
+                "icon": "local_taxi",
                 "title" : "Si parte! Dove si va?",
                 "from": {
                     "location": "Calcinate, Via Zerrate 8",

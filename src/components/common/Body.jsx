@@ -4,7 +4,7 @@ class Body extends Component {
 
     render(){
         return (
-            <div className="static w-screen h-screen p-4 bg-crete text-elm font-serif">
+            <div className="static w-screen h-screen p-6 bg-crete text-elm font-serif">
                 {this.props.content}
             </div>
         );

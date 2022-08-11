@@ -1,10 +1,8 @@
 import { Component } from "react";
 import Body from "../components/common/Body";
 import Header from "../components/common/Header";
-import StartButton from "../components/welcome/StartButton";
-import Title from "../components/welcome/Title";
 
-class Welcome extends Component{
+class Itinerary1 extends Component {
     constructor(props){
         super(props);
         this.state = {
@@ -15,7 +13,7 @@ class Welcome extends Component{
     }
 
     componentDidMount(){
-        fetch('data/welcome.json')
+        fetch('data/itinerary-1.json')
         .then((r) => r.json())
         .then((result) => {
             this.setState({
@@ -43,11 +41,7 @@ class Welcome extends Component{
                     <img className="z-0 absolute -left-24 -bottom-0" src="/images/adventure1.png" alt="adventure"></img>    
                     <Header progressBar={data.header.progressBar}></Header>
                     <div className="h-5/6 flex flex-col justify-between p-3">
-                        <Title description={data.body.welcome.title}></Title>
-                        <div className="z-10 flex flex-col">
-                            <small className="text-center font-bold">Inizia il {new Date(data.body.welcome.releaseDate).toLocaleDateString('it-It', {year: 'numeric', month: 'long', day: 'numeric'})}</small>
-                            <StartButton releaseDate={data.body.welcome.releaseDate} link={data.body.welcome.links.next}></StartButton>
-                        </div>
+                        
                     </div>
                 </div>
             )) }></Body>
@@ -55,4 +49,4 @@ class Welcome extends Component{
     }
 }
 
-export default Welcome;
+export default Itinerary1;

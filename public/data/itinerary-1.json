@@ -1,0 +1,29 @@
+{
+    "data": {
+        "header": {
+            "progressBar": {
+                "steps": 8,
+                "currentStep": 1
+            }
+        },
+        "body": {
+            "itinerary": {
+                "title" : "1ª Tappa",
+                "from": {
+                    "location": "Calcinate, Via Zerrate 8",
+                    "departAt": "Partenza stimata alle 04:30"
+                },
+                "to": {
+                    "location": "Stazione Centrale Milano",
+                    "arriveAt": "Arrivo previsto alle 05:30"
+                },
+                "curiosity": "All’interno della Stazione Centrale esiste un’area che era in origine riservata ad alcuni viaggiatori speciali: la famiglia reale dei Savoia.",
+                "mapLink": "https://goo.gl/maps/BoXXrQSFgiqDMLNj9",
+                "links": {
+                    "previus": "/",
+                    "next": "/itinerary-2"
+                }
+            }
+        }
+    }
+}

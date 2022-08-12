@@ -7,9 +7,9 @@ class ProgressBar extends Component {
         let element = []
         for (let i = 0; i < steps; i++) {
             if(i === this.props.currentStep){
-                element.push(<div className={`h-1 ${this.props.color}`}></div>);
+                element.push(<div key={i.toString()} className={`h-1 ${this.props.color}`}></div>);
             } else {
-                element.push(<div className={`h-1 ${this.props.color} opacity-30`}></div>);
+                element.push(<div key={i.toString()} className={`h-1 ${this.props.color} opacity-30`}></div>);
             }
         }
         return element;

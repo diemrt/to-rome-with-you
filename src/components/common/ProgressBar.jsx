@@ -3,8 +3,9 @@ import { Component } from "react";
 class ProgressBar extends Component {
 
     renderStps(){
+        const steps = 12;
         let element = []
-        for (let i = 0; i < this.props.steps; i++) {
+        for (let i = 0; i < steps; i++) {
             if(i === this.props.currentStep){
                 element.push(<div className={`h-1 ${this.props.color}`}></div>);
             } else {
@@ -16,7 +17,7 @@ class ProgressBar extends Component {
 
     render(){
         return (
-                <div className="grid grid-cols-8 gap-2 mb-3 mt-3">
+                <div className="grid grid-cols-12 gap-2 mb-3 mt-3">
                     {this.renderStps()}
                 </div>
         );

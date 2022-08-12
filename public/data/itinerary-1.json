@@ -7,6 +7,8 @@
             }
         },
         "body": {
+            "bgColor": "bg-white",
+            "textColor": "text-elm",
             "itinerary": {
                 "icon": "local_taxi",
                 "title" : "Si parte! Dove si va?",

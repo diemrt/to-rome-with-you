@@ -1,0 +1,31 @@
+{
+    "data": {
+        "header": {
+            "progressBar": {
+                "color": "bg-elm",
+                "steps": 8,
+                "currentStep": 1
+            }
+        },
+        "body": {
+            "itinerary": {
+                "icon": "local_taxi",
+                "title" : "Si parte! Dove si va?",
+                "from": {
+                    "location": "Calcinate, Via Zerrate 8",
+                    "departAt": "Partenza stimata alle 04:30"
+                },
+                "to": {
+                    "location": "Metropolitana - Comasina",
+                    "arriveAt": "Arrivo previsto alle 05:30"
+                },
+                "curiosity": "I colori dello stemma che rappresenta la metropolitana sono il rosso e il bianco. Lo sapevi che furono scelti perché presenti sullo stemma della città di Milano?",
+                "mapLink": "https://goo.gl/maps/BoXXrQSFgiqDMLNj9",
+                "links": {
+                    "previous": "/",
+                    "next": "/itinerary-2"
+                }
+            }
+        }
+    }
+}

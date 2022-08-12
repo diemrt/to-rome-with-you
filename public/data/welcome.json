@@ -2,6 +2,7 @@
     "data": {
         "header": {
             "progressBar": {
+                "color": "bg-white",
                 "steps": 8,
                 "currentStep": 0
             }
@@ -10,13 +11,9 @@
             "welcome": {
                 "title" : "A Roma con te",
                 "releaseDate": "2022-09-02T00:00:00",
-                "button": {
-                    "icon": "luggage",
-                    "text": "iniziamo",
-                    "links": {
-                        "previus": null,
-                        "next": "itineraryToMilan"
-                    }
+                "links": {
+                    "previus": null,
+                    "next": "/itinerary-1"
                 }
             }
         }

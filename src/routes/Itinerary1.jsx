@@ -37,7 +37,7 @@ class Itinerary1 extends Component {
                 ) : (!isLoaded ? (
                 <div></div>
                 ) : (
-                <div className={`static w-screen h-screen ${data.body.bgColor} ${data.body.textColor} font-serif`}>
+                <div className="static w-screen h-screen bg-white text-elm font-serif">
                     <NavigationButton positioning="top-10 left-0" link={data.body.itinerary.links.previous}></NavigationButton>
                     <NavigationButton positioning="top-10 right-0" link={data.body.itinerary.links.next}></NavigationButton>
                     <div className="h-full"> 
@@ -54,13 +54,13 @@ class Itinerary1 extends Component {
                         </div>
                         <div className="h-3/5 grid gird-row-2 bg-cover bg-no-repeat bg-center rounded-t-3xl shadow-inner" style={{backgroundImage: `url(${data.body.itinerary.bgImagePath})`}}>
                             <div className="flex justify-center">
-                                <a target='_blank' rel="noreferrer" className="w-fit h-fit mt-8 flex flex-row align-center p-2 pl-3 pr-3 bg-gasoline text-white rounded-lg drop-shadow-md font-bold font-sans" href={data.body.itinerary.mapLink}>
+                                <a target='_blank' rel="noreferrer" className="w-fit h-fit mt-8 flex flex-row align-center p-2 pl-3 pr-3 bg-crete text-elm rounded-lg drop-shadow-md font-bold font-sans" href={data.body.itinerary.mapLink}>
                                 <span className="material-symbols-outlined pr-1">explore</span>
                                 ANDIAMO
                              </a>
                             </div>
                             <div className="flex justify-end">
-                                <p className="p-5 w-48 h-fit mr-4 bg-elm text-crete font-bold rounded-xl">{data.body.itinerary.curiosity}</p>
+                                <p className="p-5 w-48 h-fit mr-4 bg-elm text-white font-bold rounded-xl">{data.body.itinerary.curiosity}</p>
                             </div>
                         </div>
                     </div>

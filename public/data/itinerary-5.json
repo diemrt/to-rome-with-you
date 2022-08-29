@@ -1,0 +1,31 @@
+{
+    "data": {
+        "header": {
+            "progressBar": {
+                "color": "bg-white",
+                "currentStep": 5
+            }
+        },
+        "body": {
+            "itinerary": {
+                "icon": "tour",
+                "title" : "2ª Tappa",
+                "from": {
+                    "location": "Uscita Fori Imperiali",
+                    "departAt": "Partenza stimata alle 12:00"
+                },
+                "to": {
+                    "location": "Fontana di Trevi",
+                    "arriveAt": "Arrivo previsto alle 12:10"
+                },
+                "bgImagePath": "/images/itinerary-5/fontana-trevi.jpg",
+                "curiosity": "Al lato della Fontana di Trevi, se vi capiterà di andarci, troverete un'altra fontanella. Si chiama Fonte degli innamorati e pare che, in passato, le ragazze dessero da bere qui ai loro fidanzati.",
+                "mapLink": "https://maps.app.goo.gl/zcXMwbUSnuf71auP6",
+                "links": {
+                    "previous": "/itinerary-4",
+                    "next": "/itinerary-6"
+                }
+            }
+        }
+    }
+}

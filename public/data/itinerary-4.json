@@ -1,0 +1,31 @@
+{
+    "data": {
+        "header": {
+            "progressBar": {
+                "color": "bg-white",
+                "currentStep": 4
+            }
+        },
+        "body": {
+            "itinerary": {
+                "icon": "tour",
+                "title" : "1ª Tappa",
+                "from": {
+                    "location": "Stazione Roma Termini",
+                    "departAt": "Partenza stimata alle 09:30"
+                },
+                "to": {
+                    "location": "Ingresso Fori Imperiali",
+                    "arriveAt": "Arrivo previsto alle 09:44"
+                },
+                "bgImagePath": "/images/itinerary-4/fori-imperiali.jpg",
+                "curiosity": "Il Foro Romano era un tempo un vivace mercato, aveva templi e diversi edifici suggestivi che lo rendevano il luogo in cui si svolgevano importanti attività a Roma.",
+                "mapLink": "https://maps.app.goo.gl/P65Eh9h8FyskdGEw9",
+                "links": {
+                    "previous": "/itinerary-3",
+                    "next": "/itinerary-5"
+                }
+            }
+        }
+    }
+}

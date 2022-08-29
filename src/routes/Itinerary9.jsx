@@ -60,7 +60,7 @@ class Itinerary9 extends Component {
                                 </a>
                             </div>
                             <div className="flex justify-end">
-                                <p className="p-5 w-48 h-fit mr-4 bg-elm text-white font-bold rounded-xl">{data.body.itinerary.curiosity}</p>
+                                <p className="p-5 w-48 h-fit mr-4 bg-gasoline text-white font-bold rounded-xl">{data.body.itinerary.curiosity}</p>
                             </div>
                         </div>
                     </div>

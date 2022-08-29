@@ -3,7 +3,6 @@
         "header": {
             "progressBar": {
                 "color": "bg-elm",
-                "steps": 8,
                 "currentStep": 1
             }
         },
@@ -19,6 +18,7 @@
                     "location": "Metropolitana - Comasina",
                     "arriveAt": "Arrivo previsto alle 05:30"
                 },
+                "bgImagePath": "/images/itinerary-1/metro.jpg",
                 "curiosity": "I colori dello stemma che rappresenta la metropolitana sono il rosso e il bianco. Lo sapevi che furono scelti perché presenti sullo stemma della città di Milano?",
                 "mapLink": "https://maps.app.goo.gl/QqtATiUbuawi62rt8",
                 "links": {

@@ -17,14 +17,14 @@ class StartButton extends Component {
 
     render(){
         let button = {};
-        if(!this.state.isActive){
-            button = <Link className="w-fit flex flex-row align-center p-2 pl-3 pr-3 bg-elm text-crete rounded-lg drop-shadow-md" to={this.props.link}>
+        if(this.state.isActive){
+            button = <Link className="w-fit flex flex-row align-center p-2 pl-3 pr-3 font-bold bg-white text-gasoline rounded-lg drop-shadow-md" to={this.props.link}>
                 <span className="material-symbols-outlined pr-1">luggage</span>
                 INIZIAMO
             </Link>      
         } else {
-            button = <Link className="w-fit flex flex-row align-center p-2 pl-3 pr-3 bg-elm text-crete rounded-lg drop-shadow-md disabled opacity-80" to="/">
-                <span class="material-symbols-outlined pr-1">luggage</span>
+            button = <Link className="w-fit flex flex-row align-center p-2 pl-3 pr-3 font-bold bg-white text-gasoline rounded-lg drop-shadow-md disabled opacity-60" to="/">
+                <span className="material-symbols-outlined pr-1">luggage</span>
                 INIZIAMO
             </Link>
         }

@@ -44,7 +44,7 @@ class Welcome extends Component{
                         <div className="h-5/6 flex flex-col justify-between p-3">
                             <Title description={data.body.welcome.title}></Title>
                             <div className="z-10 flex flex-col">
-                                <small className="text-center font-bold">Inizia il {new Date(data.body.welcome.releaseDate).toLocaleDateString('it-It', {year: 'numeric', month: 'long', day: 'numeric'})}</small>
+                                <small className="text-center font-bold text-elm">Inizia il {new Date(data.body.welcome.releaseDate).toLocaleDateString('it-It', {year: 'numeric', month: 'long', day: 'numeric'})}</small>
                                 <StartButton releaseDate={data.body.welcome.releaseDate} link={data.body.welcome.links.next}></StartButton>
                             </div>
                         </div>

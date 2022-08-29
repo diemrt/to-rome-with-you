@@ -1,0 +1,31 @@
+{
+    "data": {
+        "header": {
+            "progressBar": {
+                "color": "bg-elm",
+                "currentStep": 6
+            }
+        },
+        "body": {
+            "itinerary": {
+                "icon": "restaurant",
+                "title" : "Pranzo vista Colosseo",
+                "from": {
+                    "location": "Fontana di Trevi",
+                    "departAt": "Partenza stimata alle 12:30"
+                },
+                "to": {
+                    "location": "Ristorante Ristoro della Salute",
+                    "arriveAt": "Arrivo previsto alle 13:00"
+                },
+                "bgImagePath": "/images/itinerary-6/colosseo.jpg",
+                "curiosity": "Lo sapevi che per costruire il Colosseo sono stati necessari poco più di 5 anni: dal 75 all'80 d.C. Solo per la parete esterna sono stati utilizzati più 100 mila metri cubi di travertino.",
+                "mapLink": "https://maps.app.goo.gl/u614yWdvopQbT9AKA",
+                "links": {
+                    "previous": "/itinerary-5",
+                    "next": "/itinerary-7"
+                }
+            }
+        }
+    }
+}

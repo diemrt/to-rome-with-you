@@ -3,7 +3,7 @@ import Header from "../components/common/Header";
 import IndicationsRecap from "../components/itinerary/IndicationsRecap";
 import NavigationButton from "../components/itinerary/NavigationButton";
 
-class Itinerary1 extends Component {
+class Itinerary5 extends Component {
     constructor(props){
         super(props);
         this.state = {
@@ -14,7 +14,7 @@ class Itinerary1 extends Component {
     }
 
     componentDidMount(){
-        fetch('data/itinerary-1.json')
+        fetch('data/itinerary-5.json')
         .then((r) => r.json())
         .then((result) => {
             this.setState({
@@ -35,9 +35,9 @@ class Itinerary1 extends Component {
         return (error ? (
                 <div>Qualcosa è andato storto</div>
                 ) : (!isLoaded ? (
-                <div></div>
+                <div></div>     
                 ) : (
-                <div className="static w-screen h-screen bg-white text-elm font-serif">
+                <div className="static w-screen h-screen bg-elm text-white font-serif">
                     <NavigationButton positioning="top-10 left-0" link={data.body.itinerary.links.previous}></NavigationButton>
                     <NavigationButton positioning="top-10 right-0" link={data.body.itinerary.links.next}></NavigationButton>
                     <div className="h-full"> 
@@ -49,7 +49,7 @@ class Itinerary1 extends Component {
                                     <span class="material-symbols-outlined pr-4">{data.body.itinerary.icon}</span>
                                     <h1>{data.body.itinerary.title}</h1>
                                 </div>                            
-                                <IndicationsRecap from={data.body.itinerary.from} to={data.body.itinerary.to}></IndicationsRecap>
+                                <IndicationsRecap from={data.body.itinerary.from} to={data.body.itinerary.to} isBackgroundElm={true} ></IndicationsRecap>
                             </div>
                         </div>
                         <div className="h-3/5 grid gird-row-2 bg-cover bg-no-repeat bg-center rounded-t-3xl shadow-inner" style={{backgroundImage: `url(${data.body.itinerary.bgImagePath})`}}>
@@ -60,7 +60,7 @@ class Itinerary1 extends Component {
                              </a>
                             </div>
                             <div className="flex justify-end">
-                                <p className="p-5 w-48 h-fit mr-4 bg-elm text-white font-bold rounded-xl">{data.body.itinerary.curiosity}</p>
+                                <p className="p-5 w-48 h-fit mr-4 bg-crete text-elm font-bold rounded-xl">{data.body.itinerary.curiosity}</p>
                             </div>
                         </div>
                     </div>
@@ -70,4 +70,4 @@ class Itinerary1 extends Component {
     }
 }
 
-export default Itinerary1;
+export default Itinerary5;

@@ -1,0 +1,31 @@
+{
+    "data": {
+        "header": {
+            "progressBar": {
+                "color": "bg-elm",
+                "currentStep": 9
+            }
+        },
+        "body": {
+            "itinerary": {
+                "icon": "train",
+                "title" : "Si torna a casa",
+                "from": {
+                    "location": "La tua posizione",
+                    "departAt": "Partenza senza orario prestabilito"
+                },
+                "to": {
+                    "location": "Stazione Roma Termini",
+                    "arriveAt": "Arrivo previsto alle 16:30"
+                },
+                "bgImagePath": "/images/itinerary-9/nostalgia.jpg",
+                "curiosity": "Ei! So che questa giornata sta volgendo al termine, però ricorda che questo è solo uno dei mille viaggi che faremo insieme e che porteremo nei nostri ricordi.",
+                "mapLink": "https://maps.app.goo.gl/Bna2AuawEFPzEGyEA",
+                "links": {
+                    "previous": "/itinerary-8",
+                    "next": "/goodbye"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "data": {
+        "header": {
+            "progressBar": {
+                "color": "bg-elm",
+                "currentStep": 3
+            }
+        },
+        "body": {
+            "itinerary": {
+                "icon": "speed",
+                "title" : "Veloci come una freccia!",
+                "from": {
+                    "location": "Stazione Milano Centrale",
+                    "departAt": "Partenza stimata alle 06:15"
+                },
+                "to": {
+                    "location": "Stazione Roma Termini",
+                    "arriveAt": "Arrivo previsto alle 09:24"
+                },
+                "bgImagePath": "/images/itinerary-3/frecciarossa.jpg",
+                "curiosity": "Italo utilizza treni Alstom ad altissima velocità di tipo AGV (Automotrice Grande Vitesse). L'AGV è un concetto interamente nuovo, progettato per viaggiare a 360 km/h.",
+                "mapLink": "https://maps.app.goo.gl/P65Eh9h8FyskdGEw9",
+                "links": {
+                    "previous": "/itinerary-2",
+                    "next": "/itinerary-4"
+                }
+            }
+        }
+    }
+}

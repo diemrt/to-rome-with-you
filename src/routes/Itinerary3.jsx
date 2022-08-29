@@ -3,7 +3,7 @@ import Header from "../components/common/Header";
 import IndicationsRecap from "../components/itinerary/IndicationsRecap";
 import NavigationButton from "../components/itinerary/NavigationButton";
 
-class Itinerary1 extends Component {
+class Itinerary3 extends Component {
     constructor(props){
         super(props);
         this.state = {
@@ -14,7 +14,7 @@ class Itinerary1 extends Component {
     }
 
     componentDidMount(){
-        fetch('data/itinerary-1.json')
+        fetch('data/itinerary-3.json')
         .then((r) => r.json())
         .then((result) => {
             this.setState({
@@ -35,7 +35,7 @@ class Itinerary1 extends Component {
         return (error ? (
                 <div>Qualcosa è andato storto</div>
                 ) : (!isLoaded ? (
-                <div></div>
+                <div></div>     
                 ) : (
                 <div className="static w-screen h-screen bg-white text-elm font-serif">
                     <NavigationButton positioning="top-10 left-0" link={data.body.itinerary.links.previous}></NavigationButton>
@@ -54,10 +54,10 @@ class Itinerary1 extends Component {
                         </div>
                         <div className="h-3/5 grid gird-row-2 bg-cover bg-no-repeat bg-center rounded-t-3xl shadow-inner" style={{backgroundImage: `url(${data.body.itinerary.bgImagePath})`}}>
                             <div className="flex justify-center">
-                                <a target='_blank' rel="noreferrer" className="w-fit h-fit mt-8 flex flex-row align-center p-2 pl-3 pr-3 bg-white text-gasoline rounded-lg drop-shadow-md font-bold font-sans" href={data.body.itinerary.mapLink}>
-                                <span className="material-symbols-outlined pr-1">explore</span>
-                                ANDIAMO
-                             </a>
+                                <p className="w-fit h-fit mt-8 flex flex-row align-center p-2 pl-3 pr-3 text-gasoline rounded-lg drop-shadow-md font-bold font-sans">
+                                    <span className="material-symbols-outlined pr-1">emoji_food_beverage</span>
+                                    Goditi il viaggio
+                                </p>
                             </div>
                             <div className="flex justify-end">
                                 <p className="p-5 w-48 h-fit mr-4 bg-elm text-white font-bold rounded-xl">{data.body.itinerary.curiosity}</p>
@@ -70,4 +70,4 @@ class Itinerary1 extends Component {
     }
 }
 
-export default Itinerary1;
+export default Itinerary3;

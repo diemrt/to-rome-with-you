@@ -1,0 +1,31 @@
+{
+    "data": {
+        "header": {
+            "progressBar": {
+                "color": "bg-white",
+                "currentStep": 7
+            }
+        },
+        "body": {
+            "itinerary": {
+                "icon": "tour",
+                "title" : "3ª Tappa",
+                "from": {
+                    "location": "Piazza del Colosseo",
+                    "departAt": "Partenza stimata alle 14:30"
+                },
+                "to": {
+                    "location": "Piazza San Pietro",
+                    "arriveAt": "Arrivo previsto alle 15:00"
+                },
+                "bgImagePath": "/images/itinerary-7/piazzaspietro.jpg",
+                "curiosity": "Terminato nel 1667, il colonnato è lungo ben 320 merti ed è sormontato da 140 statue. In pratica un labirinto di gigantesche colonne, che nasconde un segreto...",
+                "mapLink": "https://maps.app.goo.gl/6ozKPGUTvgcedb5J6",
+                "links": {
+                    "previous": "/itinerary-6",
+                    "next": "/itinerary-8"
+                }
+            }
+        }
+    }
+}

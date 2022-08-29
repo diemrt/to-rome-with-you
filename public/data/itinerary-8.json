@@ -1,0 +1,31 @@
+{
+    "data": {
+        "header": {
+            "progressBar": {
+                "color": "bg-white",
+                "currentStep": 8
+            }
+        },
+        "body": {
+            "itinerary": {
+                "icon": "tour",
+                "title" : "4ª Tappa",
+                "from": {
+                    "location": "Piazza San Pietro",
+                    "departAt": "Partenza stimata alle 15:30"
+                },
+                "to": {
+                    "location": "Pantheon",
+                    "arriveAt": "Arrivo previsto alle 16:00"
+                },
+                "bgImagePath": "/images/itinerary-8/pantheon.jpg",
+                "curiosity": "Sapevi che al suo interno l'edificio è una sfera perfetta? La distanza fra il pavimento e la sommità della cupola è identico al diametro dell'edificio",
+                "mapLink": "https://maps.app.goo.gl/TKZvQnynDM4j5oBP7",
+                "links": {
+                    "previous": "/itinerary-7",
+                    "next": "/itinerary-9"
+                }
+            }
+        }
+    }
+}

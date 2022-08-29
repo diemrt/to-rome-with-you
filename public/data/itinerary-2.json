@@ -1,0 +1,31 @@
+{
+    "data": {
+        "header": {
+            "progressBar": {
+                "color": "bg-elm",
+                "currentStep": 2
+            }
+        },
+        "body": {
+            "itinerary": {
+                "icon": "train",
+                "title" : "Tappa intermedia",
+                "from": {
+                    "location": "Metropolitana - Comasina",
+                    "departAt": "Partenza stimata alle 05:45"
+                },
+                "to": {
+                    "location": "Stazione Milano Centrale",
+                    "arriveAt": "Arrivo previsto alle 06:00"
+                },
+                "bgImagePath": "/images/itinerary-2/milan-station.jpg",
+                "curiosity": "All’interno della Stazione Centrale esiste un’area che era in origine riservata ad alcuni viaggiatori “speciali”: la famiglia reale dei Savoia.",
+                "mapLink": "https://maps.app.goo.gl/P65Eh9h8FyskdGEw9",
+                "links": {
+                    "previous": "/itinerary-1",
+                    "next": "/itinerary-3"
+                }
+            }
+        }
+    }
+}

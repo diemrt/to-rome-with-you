@@ -5,7 +5,7 @@ class NavigationButton extends Component {
 
     render(){
         return (
-            <Link to={this.props.link} className={`absolute ${this.props.positioning} h-full w-28`}></Link>
+            <Link to={this.props.link} className={`absolute ${this.props.positioning} h-5/6 w-28`}></Link>
         );
     }
 }

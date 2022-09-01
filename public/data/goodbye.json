@@ -1,0 +1,19 @@
+{
+    "data": {
+        "header": {
+            "progressBar": {
+                "color": "bg-white",
+                "currentStep": 10
+            }
+        },
+        "body": {
+            "goodbye": {
+                "title" : "A Roma con te",
+                "date": "2022-09-02T00:00:00",
+                "links": {
+                    "previuos": "/itinerary-9"
+                }
+            }
+        }
+    }
+}

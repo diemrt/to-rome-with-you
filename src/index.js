@@ -15,6 +15,7 @@ import Itinerary6 from './routes/Itinerary6';
 import Itinerary7 from './routes/Itinerary7';
 import Itinerary8 from './routes/Itinerary8';
 import Itinerary9 from './routes/Itinerary9';
+import Goodbye from './routes/Goodbye';
 import Welcome from './routes/Welcome';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -31,6 +32,7 @@ root.render(
       <Route path="itinerary-7" element={<Itinerary7 />} />
       <Route path="itinerary-8" element={<Itinerary8 />} />
       <Route path="itinerary-9" element={<Itinerary9 />} />
+      <Route path="goodbye" element={<Goodbye />} />
     </Routes>
   </BrowserRouter>
 );

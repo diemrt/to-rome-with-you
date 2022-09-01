@@ -54,10 +54,10 @@ class Itinerary2 extends Component {
                         </div>
                         <div className="h-3/5 grid gird-row-2 bg-cover bg-no-repeat bg-center rounded-t-3xl shadow-inner" style={{backgroundImage: `url(${data.body.itinerary.bgImagePath})`}}>
                             <div className="flex justify-center">
-                                <a target='_blank' rel="noreferrer" className="w-fit h-fit mt-8 flex flex-row align-center p-2 pl-3 pr-3 bg-white text-gasoline rounded-lg drop-shadow-md font-bold font-sans" href={data.body.itinerary.mapLink}>
-                                <span className="material-symbols-outlined pr-1">explore</span>
-                                ANDIAMO
-                             </a>
+                            <p className="w-fit h-fit mt-8 flex flex-row align-center p-2 pl-3 pr-3 text-white rounded-lg drop-shadow-md font-bold font-sans">
+                                    <span className="material-symbols-outlined pr-1">emoji_food_beverage</span>
+                                    Goditi il viaggio
+                                </p>
                             </div>
                             <div className="flex justify-end">
                                 <p className="p-5 w-48 h-fit mr-4 bg-elm text-white font-bold rounded-xl">{data.body.itinerary.curiosity}</p>

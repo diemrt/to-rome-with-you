@@ -12,14 +12,14 @@
                 "title" : "Si parte! Dove si va?",
                 "from": {
                     "location": "Calcinate, Via Zerrate 8",
-                    "departAt": "Partenza stimata alle 04:30"
+                    "departAt": "Partenza stimata alle 04:25"
                 },
                 "to": {
-                    "location": "Metropolitana - Comasina",
-                    "arriveAt": "Arrivo previsto alle 05:30"
+                    "location": "Stazione Bergamo",
+                    "arriveAt": "Arrivo previsto alle 04:45"
                 },
-                "bgImagePath": "/images/itinerary-1/metro.jpg",
-                "curiosity": "I colori dello stemma che rappresenta la metropolitana sono il rosso e il bianco. Lo sapevi che furono scelti perché presenti sullo stemma della città di Milano?",
+                "bgImagePath": "/images/itinerary-1/bergamo.jpg",
+                "curiosity": "Lo sapevi che Bergamo è una delle quattordici città al mondo a essere disposta su sette colli, insieme a Roma, Edimburgo, Praga, Lisbona e tante altre?",
                 "mapLink": "https://maps.app.goo.gl/QqtATiUbuawi62rt8",
                 "links": {
                     "previous": "/",

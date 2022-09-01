@@ -9,7 +9,7 @@
         "body": {
             "welcome": {
                 "title" : "A Roma con te",
-                "releaseDate": "2022-09-02T00:00:00",
+                "releaseDate": "2022-09-01T00:00:00",
                 "links": {
                     "previus": null,
                     "next": "/itinerary-1"

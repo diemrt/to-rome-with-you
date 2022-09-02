@@ -11,7 +11,7 @@
                 "icon": "local_taxi",
                 "title" : "Si parte! Dove si va?",
                 "from": {
-                    "location": "Calcinate, Via Zerrate 8",
+                    "location": "Casa",
                     "departAt": "Partenza stimata alle 04:25"
                 },
                 "to": {
